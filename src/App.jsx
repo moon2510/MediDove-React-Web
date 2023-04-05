@@ -1,8 +1,14 @@
-import Example from '@components/Example/Example'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import HomePage from './page/HomePage'
 export default function App() {
   return (
     <>
-      <Example />
+      <BrowserRouter>
+        <Routes>
+          <Route element={<HomePage />} path='/' />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

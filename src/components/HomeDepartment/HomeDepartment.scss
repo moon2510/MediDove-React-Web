@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rubik:wght@300;400;500;600&display=swap');
+
+a {
+  text-decoration: none;
+}
+.home-department {
+  background-color: #f4f9fc;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+.nurse-img {
+  margin: auto;
+  padding: 65px;
+}
+.home-department .title {
+  margin-top: -260px;
+}
+.home-department .title h1 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 400px;
+  line-height: 1.2;
+  margin: 0;
+  color: #223645;
+}
+.home-department .title h5 {
+  color: #645789;
+  font-size: 18px;
+}
+.card-wrap {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 80px 155px;
+}
+
+.home-department .card-department {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 53px;
+  margin: 12px;
+
+  &:hover {
+    box-shadow: 0 16px 32px 0 rgba(196, 203, 255, 0.3);
+    transition: 0.4s ease-in-out;
+  }
+}
+
+.profile-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-service {
+  text-align: center;
+  margin-top: 2rem;
+}
+.name-service p {
+  line-height: 1.5;
+  color: #647589;
+  font-size: 14px;
+}
+.name-service-link {
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 150px !important;
+  color: #223645;
+  &:hover {
+    color: #8fb569;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.read-more {
+  color: #647589;
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 14px;
+  &:hover {
+    color: #8fb569;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+// Departments
+.department-service {
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 60px;
+}
+.department-service .title-wrap {
+  display: flex;
+  align-items: center;
+}
+.department-service .title-wrap .left-text {
+  min-width: 50%;
+  text-align: end;
+  padding-right: 15px;
+}
+.department-service .title-wrap h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  color: #223645;
+  margin: 0;
+  margin-top: 20px;
+  padding-left: 150px;
+  font-weight: 600;
+}
+.department-service .title-wrap h5 {
+  font-size: 18px;
+  color: #e12454;
+  margin: 0;
+  margin-top: -160px;
+}
+.department-service .title-wrap p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #647589;
+  line-height: 26px;
+  padding: 80px 180px 20px 35px;
+}
+.department-service .card-department {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 53px;
+  margin: 12px;
+  &:hover {
+    box-shadow: 0 16px 32px 0 rgba(196, 203, 255, 0.3);
+    transition: 0.4s ease-in-out;
+  }
+}
+.department-service .card-wrap {
+  margin: 40px 150px;
+}
