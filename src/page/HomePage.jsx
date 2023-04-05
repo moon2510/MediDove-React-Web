@@ -1,3 +1,4 @@
+import AboutHome from '@app/components/AboutHome/AboutHome'
 import HomeDepartment from '../components/HomeDepartment/HomeDepartment'
 // home-department
 export default function HomePage() {
@@ -5,6 +6,7 @@ export default function HomePage() {
     <>
       <div>
         <HomeDepartment name='home-department' />
+        <AboutHome />
       </div>
     </>
   )
