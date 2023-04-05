@@ -1,0 +1,23 @@
+name: ShootingStars Build Project
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    env:
+      SOURCE_DIR: 'build/'
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn build
