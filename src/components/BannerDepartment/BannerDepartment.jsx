@@ -3,31 +3,29 @@ import './BannerDepartment.scss'
 
 // import { Link } from 'react-router-dom'
 
-export default function BannerDepartment(bannerStyle) {
+export default function BannerDepartment({ title, subtitle }) {
   return (
-    <section className='banner-wrap'>
-      <div className='banner-background'>
-        <div className={bannerStyle.name}>
-          <div className='title-wrap'>
-            <div className='title'>
-              <p>We are here for your care.</p>
-              {'doctor' === bannerStyle.name ? (
-                <h1>Doctor 01</h1>
-              ) : 'doctor-detail' === bannerStyle.name ? (
-                <h1>Doctor Details</h1>
-              ) : (
-                <h1>Our Services</h1>
-              )}
+    <section className='breadcrumb-bg pt-200 pb-180 page_header_bg banner-background'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-9 col-md-9'>
+            <div className='page-title'>
+              <p className='small-text pb-15'>We are here for your care.</p>
+              <h1>{title}</h1>
             </div>
-            <div className='depart-breadcrumb'>
-              <Link to='/'>Home</Link>|
-              {'banner-department' === bannerStyle.name ? (
-                <p>Services</p>
-              ) : 'doctor' === bannerStyle.name ? (
-                <p>Doctor</p>
-              ) : (
-                <p>Details</p>
-              )}
+          </div>
+          <div className='col-lg-3 col-md-3 d-flex justify-content-start justify-content-md-end align-items-center'>
+            <div className='page-breadcumb'>
+              <nav aria-label='breadcrumb'>
+                <ol className='breadcrumb '>
+                  <li className='breadcrumb-item'>
+                    <Link to='/'>Home</Link>
+                  </li>
+                  <li aria-current='page' className='breadcrumb-item active'>
+                    {subtitle}
+                  </li>
+                </ol>
+              </nav>
             </div>
           </div>
         </div>

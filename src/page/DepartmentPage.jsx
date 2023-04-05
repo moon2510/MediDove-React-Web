@@ -5,7 +5,7 @@ export default function DepartmentPage() {
   return (
     <>
       <div>
-        <BannerDepartment name='banner-department' />
+        <BannerDepartment subtitle={'Service'} title={'Our Services'} />
         <HomeDepartment name='department-service' />
       </div>
     </>
