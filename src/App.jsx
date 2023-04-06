@@ -2,6 +2,7 @@ import HomeBanner from './components/Banner/HomeBanner'
 import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import DepartmentPage from './page/DepartmentPage'
+import DoctorPage from './page/DoctorPage'
 import HomePage from './page/HomePage'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Routes>
           <Route element={<HomePage />} path='/' />
           <Route element={<DepartmentPage />} path='/services' />
+          <Route element={<DoctorPage />} path='/doctors' />
         </Routes>
       </BrowserRouter>
     </>
