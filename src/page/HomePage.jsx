@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <div>
         <AboutHome />
-        <HomeDepartment name='department-service' />
+        <HomeDepartment name='home-department' />
         <HomeOurTeam name='home-our-team' />
         <HomePlans />
         <FooterHome name='footer-home' />
