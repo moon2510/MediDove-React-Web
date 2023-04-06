@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rubik:wght@300;400;500;600&display=swap');
+
+.banner-background {
+  background-image: url(https://medi-dove.netlify.app/static/media/page-bg.19c1fbc541073bd8ef07.jpg);
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding: 200px 0 180px;
+  .page-breadcumb .breadcrumb-item + .breadcrumb-item:before {
+    content: '|';
+  }
+  .page-title {
+    h1 {
+      color: #223645;
+      font-size: 60px;
+      letter-spacing: 0.3;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      margin: 0;
+      margin-top: 15px;
+    }
+    p {
+      margin: 0;
+      color: #647589;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 25px;
+    }
+  }
+  .page-breadcumb {
+    a {
+      text-decoration: none;
+      color: #95a3b3;
+      font-size: 14px;
+      padding-right: 8px;
+      font-weight: 500;
+    }
+    li {
+      color: #e12454;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 8px;
+    }
+  }
+}
+
+.doctor {
+  .title-wrap {
+    .title {
+      margin-right: 750px;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depart-breadcrumb {
+    padding: 100px 0;
+  }
+}
