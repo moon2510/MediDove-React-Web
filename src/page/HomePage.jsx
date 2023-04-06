@@ -6,7 +6,7 @@ export default function HomePage() {
     <>
       <div>
         <AboutHome />
-        <HomeDepartment name='home-department' />
+        <HomeDepartment name='department-service' />
       </div>
     </>
   )
