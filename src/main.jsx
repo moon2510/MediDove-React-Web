@@ -1,7 +1,7 @@
 import App from '@root/App'
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
-import '@root/styles/index.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
