@@ -83,7 +83,7 @@ export default function BannerHome() {
                   </div>
                   <div class='hero-slider-btn'>
                     <a class='primary_btn btn-icon ml-0' href='/contact'>
-                      <span>+</span>
+                      <span className='home-banner'>+</span>
                       MAKE APPOINTMENT
                     </a>
                     <button class='play-btn popup-video' onClick={displayVideo}>
