@@ -19,7 +19,7 @@
     border-radius: 16px;
     box-shadow: 0 16px 32px 0 hsla(0, 0%, 61%, 0.2);
     margin-top: -226px;
-    padding: 60px 60px 55px;
+    padding: 60px 60px 43px;
     .emmergency-call {
       overflow: hidden;
       border-bottom: 2px solid #ebebeb;
@@ -103,7 +103,8 @@
         color: #fff;
         display: block;
         font-size: 24px;
-        margin-bottom: 46px;
+        margin-bottom: 46px !important;
+        margin-top: 0 !important;
         letter-spacing: -0.3px;
         font-family: Poppins, sans-serif;
         font-weight: 600;
