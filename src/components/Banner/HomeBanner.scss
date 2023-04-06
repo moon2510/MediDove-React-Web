@@ -124,6 +124,9 @@
 .hero-slider-btn a.btn-icon:hover {
   background-color: #8fb569;
 }
+.hero-slider-btn {
+  font-size: 20px;
+}
 .btn-icon span {
   background: #fff;
   border-radius: 100%;
@@ -191,4 +194,7 @@
   right: 0;
   left: 0;
   justify-content: center;
+}
+.fa-play:before {
+  margin-left: 5px;
 }

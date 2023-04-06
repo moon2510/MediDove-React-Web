@@ -84,7 +84,7 @@ export default function BannerHome() {
                   <div class='hero-slider-btn'>
                     <a class='primary_btn btn-icon ml-0' href='/contact'>
                       <span>+</span>
-                      Make Appointment
+                      MAKE APPOINTMENT
                     </a>
                     <button class='play-btn popup-video' onClick={displayVideo}>
                       <i class='fas fa-play'></i>
