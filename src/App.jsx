@@ -1,9 +1,6 @@
-
 import HomeBanner from './components/Banner/HomeBanner'
 import { useEffect } from 'react'
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 import DepartmentPage from './page/DepartmentPage'
 import HomePage from './page/HomePage'
 
@@ -17,7 +14,6 @@ export default function App() {
   return (
     <>
       <HomeBanner />
-
       <BrowserRouter>
         <Routes>
           <Route element={<HomePage />} path='/' />
