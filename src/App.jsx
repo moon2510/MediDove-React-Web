@@ -5,6 +5,7 @@ import DoctorDetail from './components/Doctor/DoctorDetail/DoctorDetail'
 import DepartmentPage from './page/DepartmentPage'
 import DoctorPage from './page/DoctorPage'
 import HomePage from './page/HomePage'
+import ServicesDetailsPage from './page/ServicesDetailsPage'
 
 export default function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
           <Route element={<DepartmentPage />} path='/services' />
           <Route element={<DoctorPage />} path='/doctors' />
           <Route element={<DoctorDetail />} path='doctorDetails' />
+          <Route element={<ServicesDetailsPage />} path='servicesDetails' />
         </Routes>
       </BrowserRouter>
     </>
