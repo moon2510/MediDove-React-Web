@@ -5,7 +5,7 @@ import DoctorDetail from './components/Doctor/DoctorDetail/DoctorDetail'
 import DepartmentPage from './page/DepartmentPage'
 import DoctorPage from './page/DoctorPage'
 import HomePage from './page/HomePage'
-import ServicesDetails from './page/ServicesDetailsPage'
+import ServicesDetailsPage from './page/ServicesDetailsPage'
 
 export default function App() {
   useEffect(() => {
