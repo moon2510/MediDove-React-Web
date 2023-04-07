@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 
 import './Header.scss'
-
-import { HiMenu } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 import Sidebar from './SideBar'
 
@@ -152,7 +150,7 @@ export default function Header() {
                     className='menu-button side-toggle border-0 bg-transparent'
                     onClick={handleShow}
                   >
-                    <HiMenu fontSize={30} />
+                    <i className='fas fa-bars' style={{ fontSize: '30px' }}></i>
                   </button>
                 </div>
               </div>
