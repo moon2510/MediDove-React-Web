@@ -1,0 +1,10 @@
+.counter-wrapper {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background: #f4f9fc;
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+}
