@@ -1,13 +1,6 @@
 import React, { useState } from 'react'
 
 import './Header.scss'
-import {
-  FaFacebookF,
-  FaYoutube,
-  FaLinkedin,
-  FaPinterest,
-  FaBehance,
-} from 'react-icons/fa'
 
 import { HiMenu } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
@@ -96,27 +89,27 @@ export default function Header() {
                     <ul>
                       <li>
                         <a href='#'>
-                          <FaFacebookF />
+                          <i className='fab fa-facebook-f'></i>
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <FaBehance />
+                          <i className='fab fa-behance'></i>
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <FaYoutube />
+                          <i className='fab fa-youtube'></i>
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <FaLinkedin />
+                          <i className='fab fa-linkedin'></i>
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <FaPinterest />
+                          <i className='fab fa-pinterest'></i>
                         </a>
                       </li>
                     </ul>
