@@ -1,7 +1,6 @@
 import Aos from 'aos'
 import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import HomeBanner from './components/Banner/HomeBanner'
 import DoctorDetail from './components/Doctor/DoctorDetail/DoctorDetail'
 import DepartmentPage from './page/DepartmentPage'
 import DoctorPage from './page/DoctorPage'
@@ -21,7 +20,7 @@ export default function App() {
           <Route element={<HomePage />} path='/' />
           <Route element={<DepartmentPage />} path='/services' />
           <Route element={<DoctorPage />} path='/doctors' />
-          <Route element={<DoctorDetail />} path='doctordetail' />
+          <Route element={<DoctorDetail />} path='doctorDetails' />
         </Routes>
       </BrowserRouter>
     </>

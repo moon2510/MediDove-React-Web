@@ -1,15 +1,18 @@
 import './DoctorDetail.scss'
 
 import React from 'react'
+import BannerDepartment from '../../BannerDepartment/BannerDepartment'
+import DoctorFooter from '../../DoctorFooter/DoctorFooter'
+import Header from '../../Header/Header'
 import ContactMap from './ContactMap'
 import DoctorLeft from './DoctorLeft'
 import DoctorRight from './DoctorRight'
-import HeaderDetail from './HeaderDetail'
 
 export default function DoctorDetail() {
   return (
     <div>
-      <HeaderDetail />
+      <Header />
+      <BannerDepartment subtitle={'Details'} title={'Doctor Details'} />
       <div className='container doctorDetailsArea'>
         <div className='row'>
           <div className='col-xl-7 col-lg-7'>
@@ -21,6 +24,7 @@ export default function DoctorDetail() {
           </div>
         </div>
       </div>
+      <DoctorFooter />
     </div>
   )
 }
