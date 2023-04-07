@@ -9,7 +9,6 @@ export default function DepartmentBottom() {
   return (
     <section
       className='department-section'
-      data-background='https://medi-dove.netlify.app/static/media/calculate-bg.ef8aed0096c22d49b5a5.png'
       style={{ paddingTop: '115px', paddingBottom: '120px' }}
     >
       <div className='container department-wrapper'>
