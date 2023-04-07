@@ -574,7 +574,7 @@ export default function ServicesDetailsArea() {
                                 x={646}
                                 y={278}
                               >
-                                <tspan x='548.3333333333334' dy='0.71em'>
+                                <tspan dy='0.71em' x='548.3333333333334'>
                                   Page F
                                 </tspan>
                               </text>
