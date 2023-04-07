@@ -81,9 +81,9 @@ export default function BannerHome() {
                       aliqua.
                     </p>
                   </div>
-                  <div className='hero-slider-btn'>
-                    <a className='primary_btn btn-icon ml-0' href='/contact'>
-                      <span>+</span>
+                  <div class='hero-slider-btn'>
+                    <a class='primary_btn btn-icon ml-0' href='/contact'>
+                      <span className='home-banner'>+</span>
                       MAKE APPOINTMENT
                     </a>
                     <button
