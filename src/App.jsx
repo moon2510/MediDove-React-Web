@@ -22,6 +22,7 @@ export default function App() {
           <Route element={<DepartmentPage />} path='/services' />
           <Route element={<DoctorPage />} path='/doctors' />
           <Route element={<DoctorDetail />} path='doctorDetails' />
+          <Route element={<ServicesDetailsPage />} path='servicesDetails' />
         </Routes>
       </BrowserRouter>
     </>
