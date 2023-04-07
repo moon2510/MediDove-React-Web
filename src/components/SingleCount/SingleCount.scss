@@ -1,0 +1,36 @@
+.single-counter {
+  margin-bottom: 30px;
+  img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+  }
+  .counter-text-box {
+    h1 {
+      color: #e12454 !important;
+      font-size: 80px;
+      font-weight: 200;
+      margin-top: 20px;
+      line-height: 1.22;
+      font-family: Poppins, sans-serif;
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 17px;
+      margin-top: 10px;
+      letter-spacing: -0.3px;
+      color: #223645;
+      font-family: Poppins, sans-serif;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+    p {
+      margin-bottom: 0;
+      padding-right: 40px;
+      color: #647589;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      font-family: Rubik, sans-serif;
+    }
+  }
+}
