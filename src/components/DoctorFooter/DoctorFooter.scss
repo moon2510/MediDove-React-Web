@@ -1,0 +1,177 @@
+.doctor-footer {
+  color: #647589;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  .footer-doctor-top {
+    position: relative;
+    background: #13232f;
+    padding-bottom: 80px;
+    padding-top: 120px;
+    .footer-contact-info {
+      background: 0;
+      box-shadow: none;
+      margin-bottom: 40px;
+      margin: 0;
+      .footer-logo {
+        margin-bottom: 35px;
+        a {
+          color: #10111e;
+          outline: medium none;
+          text-decoration: none;
+          transition: all 0.3s ease-out 0s;
+          img {
+            max-width: 100%;
+            transition: all 0.3s ease-out 0s;
+          }
+        }
+      }
+    }
+    .footer-contact-content {
+      margin-bottom: 25px;
+      p {
+        color: #91a1b4;
+        padding-right: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 15px;
+        margin-top: 0;
+        display: block;
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+      }
+    }
+    .footer-emailing {
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          color: #91a1b4;
+          font-size: 18px;
+          margin-bottom: 12px;
+          list-style: none !important;
+          font-family: Rubik, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          i {
+            margin-right: 14px;
+            -webkit-font-smoothing: antialiased;
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            line-height: 1;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .footer-widget-left {
+      margin-bottom: 40px;
+      .footer-title {
+        h3 {
+          color: #fff;
+          display: block;
+          font-size: 24px;
+          margin-bottom: 46px;
+          letter-spacing: -0.3px;
+          font-family: Poppins, sans-serif;
+          font-weight: 600;
+          line-height: 1.1;
+          margin-top: 0;
+        }
+      }
+      .footer-menu {
+        overflow: hidden;
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            float: left;
+            margin-bottom: 21px;
+            width: 50%;
+            list-style: none;
+            a {
+              color: #899dab;
+              font-weight: 500;
+              outline: medium none;
+              text-decoration: none;
+              transition: all 0.3s ease-out 0s;
+            }
+            a:hover {
+              color: #8fb569;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .footer-widget-right {
+      margin-bottom: 40px;
+      .footer-title {
+        h3 {
+          color: #fff;
+          display: block;
+          font-size: 24px;
+          margin-bottom: 46px;
+          letter-spacing: -0.3px;
+          font-family: Poppins, sans-serif;
+          font-weight: 600;
+          line-height: 1.1;
+          margin-top: 0;
+        }
+      }
+    }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1200px;
+      }
+    }
+    @media (max-width: 1200px) {
+      .footer-title h3 {
+        margin-top: 21px !important;
+      }
+    }
+  }
+  .footer-map::before {
+    background-image: url(https://medi-dove.netlify.app/static/media/footer-map.d132e4df765ec0ab0b28.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    content: '';
+    left: 0;
+    margin: 0 auto;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  .footer-bottom {
+    background: #0d1b26;
+    padding-top: 25px !important;
+    padding-bottom: 20px !important;
+    .footer-copyright {
+      text-align: center !important;
+      padding-bottom: 0px !important;
+      p {
+        margin: 0;
+        color: #9aacbb !important;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 0px !important;
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+      }
+    }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1200px;
+      }
+    }
+  }
+}
