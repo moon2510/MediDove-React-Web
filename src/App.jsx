@@ -1,7 +1,6 @@
 import AOS from 'aos'
 import { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import HomeBanner from './components/Banner/HomeBanner'
 import DepartmentPage from './page/DepartmentPage'
 import DoctorPage from './page/DoctorPage'
 import HomePage from './page/HomePage'
@@ -15,7 +14,6 @@ export default function App() {
   }, [])
   return (
     <>
-      <HomeBanner />
       <BrowserRouter>
         <Routes>
           <Route element={<HomePage />} path='/' />
