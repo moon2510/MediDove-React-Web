@@ -1,0 +1,187 @@
+.select_style {
+  height: 70px;
+  padding-left: 38px;
+  margin-bottom: 15px;
+  border: 2px solid #eee7ff;
+  font-size: 14px;
+  color: #647589;
+}
+
+/* calculate */
+//   .department-section::before {
+//     position: absolute;
+//     content: '';
+//     width: 100%;
+//     height: 118%;
+//     background: #223645;
+//     opacity: 0.9;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//   }
+
+.departmemt-left-side .departmemt-left-text p {
+  font-size: 30px;
+  color: #b4c8d7;
+  line-height: 42px;
+  padding-right: 35px;
+  max-width: 680px;
+}
+.department-right-content {
+  padding: 60px;
+  background: #fff;
+  padding-bottom: 0;
+}
+.department-right-box .nice-select {
+  width: 100%;
+  height: 70px;
+  padding-top: 14px;
+  border-radius: 0;
+  border: 2px solid #eee7ff;
+  padding-left: 38px;
+  margin-bottom: 20px;
+}
+.department-right-box .nice-select::after {
+  margin-right: 18px;
+  margin-top: -1px;
+}
+.department-right-box .nice-select .list {
+  width: 100%;
+  border-radius: 0;
+}
+.department-form input {
+  height: 70px;
+  padding-left: 38px;
+  width: 100%;
+  border: 2px solid #eee7ff;
+  position: relative;
+}
+.department-form input::placeholder {
+  color: #647589;
+}
+.department-right-box a {
+  width: 100%;
+}
+.department-form {
+  position: relative;
+}
+.department-form .iconPhone {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+}
+
+.department-section {
+  background-image: url('https://medi-dove.netlify.app/static/media/calculate-bg.ef8aed0096c22d49b5a5.png');
+  background-repeat: no-repeat;
+}
+.department-wrapper {
+  position: relative;
+  z-index: 99;
+}
+
+// .mt-40{
+//     margin-top: 40px;
+// }
+
+.department-form-select:focus {
+  border-color: #eee7ff;
+  box-shadow: none;
+}
+
+.department-form-select:focus {
+  border-color: #eee7ff;
+  box-shadow: none;
+}
+.primary_btn {
+  -moz-user-select: none;
+  background: #e12454;
+  border: medium none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 24px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.primary_btn:hover {
+  background: #8fb569;
+  color: #fff;
+}
+.btn-icon {
+  border-radius: 30px;
+  padding-left: 84px;
+  padding-right: 50px;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  background-color: rgb(225, 36, 84);
+  box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+}
+.btn-icon-green {
+  background-color: rgb(143, 181, 105);
+  box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
+}
+.btn-icon:hover {
+  background-color: rgb(143, 181, 105);
+  box-shadow: 0px 8px 16px 0px rgba(125, 178, 73, 0.2);
+  color: #fff;
+}
+.btn-icon-green:hover {
+  background-color: rgb(225, 36, 84);
+  box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+}
+
+.btn-icon span {
+  position: absolute;
+  left: 5px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  line-height: 50px;
+  background: #fff;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 600;
+  color: #223645;
+  border-radius: 100%;
+}
+.btn-icon-white {
+  background: #fff;
+  color: #647589;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: 2px solid #eae7ff;
+  margin-left: 29px;
+  box-shadow: none;
+  border-radius: 40px;
+}
+.btn-icon-white .iconPhone {
+  margin-right: 7px;
+}
+.btn.btn-icon.btn-icon-white:hover {
+  border: 2px solid transparent;
+}
+
+.fa-phone:before {
+  content: '\f095';
+}
+
+div.deparment-left-button {
+  padding-bottom: 30px;
+}
+.btn-icon span {
+  top: 5px !important;
+  left: 5px !important;
+}
