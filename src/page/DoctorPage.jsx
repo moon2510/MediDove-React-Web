@@ -1,5 +1,5 @@
-import CounterArea from '../components/CounterArea/CounterArea'
 import BannerDepartment from '../components/BannerDepartment/BannerDepartment'
+import CounterArea from '../components/CounterArea/CounterArea'
 import Available from '../components/Doctor/DoctorOne/Available/Available'
 
 // home-department

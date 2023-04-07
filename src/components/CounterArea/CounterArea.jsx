@@ -22,11 +22,11 @@ export default function DoctorCounter() {
           <div className='row'>
             {countList?.map((count) => (
               <SingleCount
-                key={count.id}
-                icon={count.img}
                 counter={count.count}
-                title={count.title}
                 detail={count.detail}
+                icon={count.img}
+                key={count.id}
+                title={count.title}
               />
             ))}
           </div>

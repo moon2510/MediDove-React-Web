@@ -12,37 +12,37 @@ export default function BannerHome() {
     <div className='hoverDiv'>
       {display && <div className='mfp-bg ' onClick={hideVideo}></div>}
       <div
-        id='carouselExampleControls'
         className='carousel slide-fade banner'
         data-ride='carousel'
+        id='carouselExampleControls'
       >
         <div className='carousel-inner banner'>
           <div className='carousel-item active'>
             <img
+              alt='First slide'
               className='d-block'
               src='https://medi-dove.netlify.app/static/media/slider-bg-1.a5b879494592cab4771e.jpg'
-              alt='First slide'
             />
           </div>
           <div className='carousel-item'>
             <img
+              alt='Second slide'
               className='d-block'
               src='https://medi-dove.netlify.app/static/media/slider-bg-2in1.a274526164db40a919cb.jpg'
-              alt='Second slide'
             />
           </div>
         </div>
         <div className='button-banner prev'>
           <a
             className='carousel-control-prev prev-slide'
+            data-slide='prev'
             href='#carouselExampleControls'
             role='button'
-            data-slide='prev'
           >
             <div className='hover-prev-span'>
               <span
-                className='carousel-control-prev-icon prev-arrow'
                 aria-hidden='true'
+                className='carousel-control-prev-icon prev-arrow'
               />
               <span className='sr-only'>Previous</span>
             </div>
@@ -52,14 +52,14 @@ export default function BannerHome() {
         <div className='button-banner next'>
           <a
             className='carousel-control-next next-slide'
+            data-slide='next'
             href='#carouselExampleControls'
             role='button'
-            data-slide='next'
           >
             <div className='hover-next-span'>
               <span
-                className='carousel-control-next-icon next-arrow'
                 aria-hidden='true'
+                className='carousel-control-next-icon next-arrow'
               />
               <span className='sr-only'>Next</span>
             </div>
@@ -68,11 +68,11 @@ export default function BannerHome() {
 
         {/* container text */}
         <div className='slide-text' data-aos='fade-up'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-xl-6 col-lg-8 col-md-10'>
-                <div class='hero-text'>
-                  <div class='hero-slider-caption '>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-xl-6 col-lg-8 col-md-10'>
+                <div className='hero-text'>
+                  <div className='hero-slider-caption '>
                     <h5>We are here for your care.</h5>
                     <h1>Best Care &amp; Better Doctor.</h1>
                     <p>
@@ -81,13 +81,16 @@ export default function BannerHome() {
                       aliqua.
                     </p>
                   </div>
-                  <div class='hero-slider-btn'>
-                    <a class='primary_btn btn-icon ml-0' href='/contact'>
+                  <div className='hero-slider-btn'>
+                    <a className='primary_btn btn-icon ml-0' href='/contact'>
                       <span>+</span>
                       MAKE APPOINTMENT
                     </a>
-                    <button class='play-btn popup-video' onClick={displayVideo}>
-                      <i class='fas fa-play'></i>
+                    <button
+                      className='play-btn popup-video'
+                      onClick={displayVideo}
+                    >
+                      <i className='fas fa-play'></i>
                     </button>
                   </div>
                 </div>

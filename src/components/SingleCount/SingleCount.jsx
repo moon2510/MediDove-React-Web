@@ -7,11 +7,11 @@ export default function SingleCount({ icon, counter, title, detail }) {
     <>
       <div className='col-xl-4 col-lg-4 col-md-6'>
         <div className='single-counter mb-30'>
-          <img src={icon} alt='' />
+          <img alt='' src={icon} />
           <div className='counter-text-box'>
             <h1>
               <span className='counter'>
-                <CountUp end={counter} duration={8} />
+                <CountUp duration={8} end={counter} />
               </span>
               +
             </h1>
