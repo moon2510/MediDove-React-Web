@@ -566,12 +566,21 @@ export default function ServicesDetailsArea() {
                                 height={30}
                                 orientation='bottom'
                                 stroke='none'
+                                fill='#666'
+                                className='recharts-text recharts-cartesian-axis-tick-value'
                                 textAnchor='middle'
                                 type='category'
                                 width={586}
                                 x={646}
                                 y={278}
                               >
+                                <tspan x='548.3333333333334' dy='0.71em'>
+                                  Page F
+                                </tspan>
+                              </text>
+                            </g>
+                            <g className='recharts-layer recharts-cartesian-axis-tick'>
+                              <line
                                 <tspan dy='0.71em' x={646}>
                                   Page G
                                 </tspan>
