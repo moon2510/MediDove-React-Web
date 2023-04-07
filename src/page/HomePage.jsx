@@ -3,6 +3,7 @@ import FooterHome from '../components/FooterHome/FooterHome'
 import HomeDepartment from '../components/HomeDepartment/HomeDepartment'
 import HomeOurTeam from '../components/HomeOurTeam/HomeOurTeam'
 import HomePlans from '../components/HomePlans/HomePlans'
+import News from '../components/News/News'
 // home-department
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         <HomeDepartment name='home-department' />
         <HomeOurTeam name='home-our-team' />
         <HomePlans />
+        <News />
         <FooterHome name='footer-home' />
       </div>
     </>
